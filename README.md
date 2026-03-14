@@ -1,4 +1,4 @@
-# 🌌 Neural Data Terminal
+# 🌌 Cowen Neural Data Terminal
 
 An automated LLM data governance pipeline that transforms raw web crawls into high-quality synthetic Q&A pairs.
 
