@@ -1,6 +1,6 @@
 # 🌌 Cowen Neural Data Terminal
 
-An automated LLM data governance pipeline that transforms raw web crawls into high-quality synthetic Q&A pairs.
+An automated LLMs data governance pipeline that transforms raw data into high-quality synthetic Q&A pairs.
 
 ### 🚀 Features
 * **Stage 1-4**: Multi-stage cleaning (Language routing, MinHash deduplication, Quality tagging).
