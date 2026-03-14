@@ -1,0 +1,14 @@
+# Credentials
+.env
+api_key.txt
+
+# Large Data Files
+data/
+log/
+*.jsonl
+*.csv
+
+# Python environment
+__pycache__/
+venv/
+.ipynb_checkpoints/
