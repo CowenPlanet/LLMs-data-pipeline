@@ -11,7 +11,7 @@ if not os.path.exists("log"): os.makedirs("log")
 logging.basicConfig(filename='log/error.txt', level=logging.ERROR, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-st.set_page_config(page_title="Cowen's Data Engine", layout="wide", page_icon="🌌")
+st.set_page_config(page_title="CowenPlanet Only", layout="wide", page_icon="🌌")
 
 # --- 2. UI STYLE INJECTION (Advanced Gray + Neon Accents) ---
 st.markdown("""
@@ -122,7 +122,7 @@ if 'steps' not in st.session_state:
 
 # --- 4. SIDEBAR: REAL-TIME MONITORING ---
 with st.sidebar:
-    st.markdown('<h2 style="color:#00d4ff;">CORE CONTROL</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 style="color:#00d4ff;">Pipeline</h2>', unsafe_allow_html=True)
     sidebar_placeholder = st.empty()
 
 def update_sidebar():
@@ -165,7 +165,7 @@ if st.sidebar.button("🚀 INITIATE FULL PIPELINE", use_container_width=True):
 
 
 # --- 5. MAIN DASHBOARD ---
-st.markdown('<h1 class="tech-header">Cowen DATA TERMINAL v1.0</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="tech-header">Auto Data Processing System</h1>', unsafe_allow_html=True)
 
 if os.path.exists(main.REFINED_OUT):
     try:
