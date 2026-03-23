@@ -11,7 +11,7 @@ An automated LLMs data governance pipeline that transforms raw data into high-qu
 * **Engine**: Python 3.10+
 * **LLM**: Gemini 2.5 Flash / deepseek 
 * **UI**: Streamlit & Plotly
-* **Data**: Pandas & Neo4j (Planned)
+* **Data**: Pandas 
 
 ### 📦 Setup
 1. Clone the repo.
