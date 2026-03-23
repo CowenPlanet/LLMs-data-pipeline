@@ -1,4 +1,4 @@
-# 🌌 Cowen Neural Data Terminal
+# 🌌 Auto Data Processing System
 
 An automated LLMs data governance pipeline that transforms raw data into high-quality synthetic Q&A pairs.
 
