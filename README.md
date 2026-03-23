@@ -18,3 +18,4 @@ An automated LLMs data governance pipeline that transforms raw data into high-qu
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Set your `API_KEY` in `main_test.py`.
 4. Run: `streamlit run app.py`.
+<img width="1908" height="882" alt="image" src="https://github.com/user-attachments/assets/69007fc8-dad4-48f7-9b2b-c2dd2553a58b" />
